@@ -1,0 +1,12 @@
+/**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* File name     :  Text File
+* Purpose       :  Alerts "Hello, World!"  
+* Author        :  Olivia Round
+* Date          :  1/15/18
+* Notes         :  Ensuring that my text editor is allowing me to work only with text 
+* Warnings      :  None
+* Exception     :  None
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+alert( 'Hello, World!' );
