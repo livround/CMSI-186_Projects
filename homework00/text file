@@ -1,0 +1,11 @@
+function recursiveSolution(n) {
+	if (n === 1 || n === 2) {
+  	return 1;
+  } else if (n % 2 == 1) {
+  	return recursiveSolution(n-1) + recursiveSolution(n-2) + 1;
+  } else {
+  	return recursiveSolution(n-1) + recursiveSolution(n-2) + 2;
+  }
+}
+
+alert(recursiveSolution(5));
