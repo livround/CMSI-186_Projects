@@ -1,11 +1,12 @@
-function recursiveSolution(n) {
-	if (n === 1 || n === 2) {
-  	return 1;
-  } else if (n % 2 == 1) {
-  	return recursiveSolution(n-1) + recursiveSolution(n-2) + 1;
-  } else {
-  	return recursiveSolution(n-1) + recursiveSolution(n-2) + 2;
-  }
-}
+/**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* File name     :  Text File
+* Purpose       :  Alerts "Hello, World!"  
+* Author        :  Olivia Round
+* Date          :  1/15/18
+* Notes         :  Ensuring that my text editor is allowing me to work only with text 
+* Warnings      :  None
+* Exception     :  None
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-alert(recursiveSolution(5));
+
+alert( 'Hello, World!' );
